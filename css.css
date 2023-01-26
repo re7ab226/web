@@ -1,0 +1,159 @@
+
+header {
+    
+    margin-bottom: 100px;
+    border-radius: 0 50px ;
+    background-color: rgb(51, 51, 70);
+    color: rgb(245, 238, 238);
+    
+
+}
+header h1{
+  text-align: center;
+  padding: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+nav ul
+{
+    display: flex;
+    justify-content: space-around;
+
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    color: rgb(250, 245, 245);
+    padding-bottom: 20px;
+}
+li {
+list-style-type: none; 
+}
+
+li a {
+    color:  rgb(250, 245, 245);
+    text-decoration: none;
+
+    display: inline-block;
+}
+
+li a:hover{
+    border-bottom: 5px;
+    color: rgb(247, 211, 9);
+    font-size: 20px ; 
+}
+.mod {
+    border: 2px solid white;
+border-radius: 0px 50px 50px ;
+padding: 5px 10px;
+}
+
+
+section { 
+    margin-bottom: 100px;
+    width: 95%;
+    box-shadow: 5px 5px  25px gray;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0 ;
+}
+        section h2{
+  border-radius: 50px 0px ;
+    width: 50%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(241, 237, 237);
+    margin: auto;
+    background-color: rgb(36, 36, 43);}
+
+.first ,.scond
+{ font-size: large;
+
+    width: 49%;
+    margin-top: 60px;
+  text-align: center;
+ margin-bottom: 10px;
+ margin-left: auto;
+ margin-right: auto;
+
+}
+.first {
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    direction: ltr;
+    margin: auto;
+}
+
+.flex
+{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.img {
+    width: 200px;; height: 200px;
+    border-radius: 50%;
+    margin: auto;
+    border-top: 2px solid gold;
+    border-bottom: 2px solid gold;
+    border-left: 2px solid rgb(240, 7, 7);
+    border-right: 2px solid rgb(240, 7, 7);
+}
+article h5 {
+    font-family: 'Passions Conflict', cursive;
+    font-size: 30px;
+    font-weight: 500;
+}
+article p {
+    font-size: larger;
+    font: 1em sans-serif;
+}
+section h2 {
+    text-align: center;
+    padding: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    border-radius: 50px 0 50px ;
+       color: rgb(247, 232, 232);
+   margin: auto;
+  box-shadow: 5px 5px 25px gray;
+}
+section p {
+    direction: rtl;
+    font-size: 25px;
+    font: 1em sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+   div a {
+        margin: 100px;
+        color: var(--bs-link-color);
+        text-decoration: none;
+        border: 2px solid;
+        border-radius:25px;
+        padding: 5px;
+        margin-top: 10px;
+    }
+
+ footer {
+    direction: rtl;
+    box-shadow: 5px 5px 25 gray;
+    text-align: center;
+    border-radius: 50px ;
+    box-shadow: 5px 5px 25px gray;
+ }
+ .mycard
+ {
+    margin: auto;
+    margin-top: 50px;
+ }
+.card-title 
+{
+    text-align: center;
+}
